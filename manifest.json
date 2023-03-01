@@ -1,12 +1,13 @@
 {
-  "manifest_version": 2,
-  "name": "Front by FAM",
+  "manifest_version": 3,
+  "name": "Extantion test",
   "version": "1.0.0",
   "description": "Quick access to Front",
-
-  "browser_action": {
-    "default_title": "Front",
-    "default_popup": "popup.html"
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/coinbase.png"
+    }
   },
   "content_scripts": [
     {
